@@ -6,8 +6,8 @@ AMD, MVC, IOC, DI JavaScript library. Mostly based on Robot Legs, but with tweak
 (AMD is provided by Require JS, if that isn't present then is falls back to claiming the NW global name space)
 
 The driving idea behind the library is provide a complete framework for developers to work with.
-Another main idea behind this library is help ActionScript developers transition to JavaScript, as there
-are many common concents (eventDispatcher being one) that has been (almost) directly translated to JavaScript.
+The other idea behind this library is help ActionScript developers transition to JavaScript, as there
+are many common concepts (eventDispatcher being one) that has been (almost) directly translated to JavaScript.
 
 
 This is a largly unfinished library but it has the follwoing working;
