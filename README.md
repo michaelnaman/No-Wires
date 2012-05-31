@@ -13,14 +13,14 @@ are many common concepts (eventDispatcher being one) that has been (almost) dire
 This is a largly unfinished library but it has the follwoing working;
 
 -Class inheritance including extend and super method functionality provided by John Resig (there may but some tweeks
-to this class down the line) http://ejohn.org/blog/simple-javascript-inheritance/
--Strongly typed event dispatcher class that provides callback scope
--Event and Payload event classes that provide the event object for dispatching events
--Event map allows listeners on instances of the event dispatcher class to be stored in a map rather than directly
--Command map allows commands to be mapped to event
--Injector class handles depandancy injection and invertion of control
--Injector can map values and auto inject instances based on property name
--Centralised event dispatcher instance injected into Actors, Commands and Mediators allowing instances to dispatch 
+to this class down the line) http://ejohn.org/blog/simple-javascript-inheritance/\n
+-Strongly typed event dispatcher class that provides callback scope\n
+-Event and Payload event classes that provide the event object for dispatching events\n
+-Event map allows listeners on instances of the event dispatcher class to be stored in a map rather than directly\n
+-Command map allows commands to be mapped to event\n
+-Injector class handles depandancy injection and invertion of control\n
+-Injector can map values and auto inject instances based on property name\n
+-Centralised event dispatcher instance injected into Actors, Commands and Mediators allowing instances to dispatch\n
 events in the event disptacher and be able to be handled anywehre, decoupling all of your code.
 -Mediator and View classes (also treat these as not finished)
 
