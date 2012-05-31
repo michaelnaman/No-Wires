@@ -16,7 +16,7 @@ This is a largly unfinished library but it has the follwoing working;
 to this class down the line) http://ejohn.org/blog/simple-javascript-inheritance/
 -Strongly typed event dispatcher class that provides callback scope
 -Event and Payload event classes that provide the event object for dispatching events
--Event map allows listeners on instances of the event dispatcher class to be stored in a map rather than directly
+-Event map allows listeners on instances of the event dispatcher class to be stored in a map rather than listening directly tot he event dispatcher
 -Command map allows commands to be mapped to event
 -Injector class handles depandancy injection and invertion of control
 -Injector can map values and auto inject instances based on property name
