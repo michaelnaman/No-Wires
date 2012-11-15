@@ -6,9 +6,6 @@ AMD, MVC, IOC, DI JavaScript library. Mostly based on Robot Legs, but with tweak
 (AMD is provided by Require JS, if that isn't present then is falls back to claiming the NW global name space)
 
 The driving idea behind the library is provide a complete framework for developers to work with.
-The other idea behind this library is help ActionScript developers transition to JavaScript, as there
-are many common concepts (eventDispatcher being one) that has been (almost) directly translated to JavaScript.
-
 
 This is a largly unfinished library but it has the follwoing working;
 <ul>
@@ -18,7 +15,7 @@ to this class down the line) http://ejohn.org/blog/simple-javascript-inheritance
 <li>Event and Payload event classes that provide the event object for dispatching events</li>
 <li>Event map allows listeners on instances of the event dispatcher class to be stored in a map rather than listening directly tot he event dispatcher</li>
 <li>Command map allows commands to be mapped to event</li>
-<li>Injector class handles depandancy injection and invertion of control</li>
+<li>Injector class handles depandancy injection and invertion of control, this needs a little work to counteract dependancies not being available in the constructor</li>
 <li>Injector can map values and auto inject instances based on property name</li>
 <li>Centralised event dispatcher instance injected into Actors, Commands and Mediators allowing instances to dispatch</li>
 vents in the event disptacher and be able to be handled anywehre, decoupling all of your code.</li>
@@ -35,6 +32,7 @@ and understand which packages are needed based on which URL route, then load the
 package via the package manager (also this is was started but has removed for the moment)
 </li>
 </ul>
+
 Things that need some thought
 
 -Compiler - evey library needs a compiler and so does this one. The compiler needs to be able to read
