@@ -1,4 +1,4 @@
-JS-RL-port
+No Wires
 ==========
 
 AMD, MVC, IOC, DI JavaScript library. Mostly based on Robot Legs, but with tweaks for JavaScript. 
